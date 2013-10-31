@@ -1,0 +1,6 @@
+I dunno, maybe go decrypt that pgp-encrypted file?
+
+Go find the luks volume?  You can probably most easily find the passphrase to
+the luks volume with the command line, by the way.  I installed a program on
+here to make inspecting image attributes.  Hmm I wonder if I left the apt
+history in place...  But now I've said too much.
