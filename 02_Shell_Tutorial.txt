@@ -1,0 +1,51 @@
+Introduction to the Linux command line.
+
+There are a million tutorials online for this--just search for "bash tutorial."
+Or pick up a pdf of my comic book version at hackettandbankewll.com (USD$4).
+
+But in the spirit of keeping you in the same user interface, let me give you a
+brief, hopefully helpful explanation:
+
+The command line / shell / terminal interface is a way of interacting with your
+computer without having to use a mouse or "GUI" (graphical user interface--the
+way you most likely typically use your computer).  In Linux-based operating
+systems, it is more common to use the shell interface than the desktop GUI
+because most Linux systems run as servers of some kind, powering familiar web
+applications, from Facebook to Google to pick-your-company's website.  The fact
+that you are running this Linux-based system in no way takes away from its
+ability to run bleeding edge server software (or whatever).
+
+In the most typical usage of the shell, you enter a command, followed by some
+kind of 'argument' or sub-command, which could be something as simple as a
+command to list file contents, followed by the directory whose contents you wish
+to list:  `ls /home/vagrant` (where our username is vagrant).  The ls command
+also works without any arguments:  `ls` would list current directory contents.
+It also works with options as arguments, as well.  `ls -la /home/vagrant/` would
+do the [l]ong listing of [a]ll files (including 'hidden' files in the
+/home/vagrant directory).
+
+Commands are not limited to file system operations, of course.  You can type a
+command like `uptime` to see how long the system has been running.  You can use
+a command like `telnet` or `ssh` to connect to a particular port on your local
+server or even on a remote server, which brings us back to how most Linux
+administration ultimately happens--remotely.  Usually, Linux systems admins and
+engineers will use Macs or Linux systems for their local environments and will
+connect to remote servers to conduct their business, whether through a
+development interface or even just by using ssh clients on their local systems
+to connect to sshd servers on remote systems.
+
+Speaking of ssh vs sshd, that's something to remember with Linux.  Many or most
+server software runs as a "daemon," which typically means it's a process that is
+initiated with an upstart script and runs constantly, allowing remote clients to
+connect.  As such, many times, you will see a software package name and a
+similarly named package with a d at the end of the name (such as memcache &
+memcached, mysql & mysqld)--this is typically a distinction between client and
+server.  There are many other name-related practices to be aware of--for
+instance, when I was writing "/home/vagrant/" above, I could have simply used
+the tilde character " ~ ", which means current user's home.  But I can't list
+all the "rules" here, because like any other language, the rules aren't fixed;
+you gotta keep your eyes peeled for the nuances and, again, "man <command name>"
+and "<command name> --help" are your friends.
+
+Good luck.  Now go open a terminal and type "cat ~/.now_what.txt" for your next
+steps.
