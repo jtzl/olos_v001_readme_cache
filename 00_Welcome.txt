@@ -1,13 +1,9 @@
-Welcome to my mixtape.  I call it Off-Label OS, but it's really just a
-customized Ubuntu (Linux-based) operating system with an XFCE desktop
-environment.  What this means, practically speaking, is that you're using the
-exact same free software that powers most of the Internet.
-
-Off-Label OS is a piece of art.  Yep, it's a commentary on the disparate
-technical skills found in contemporary society.  If you didn't already know,
-poor kids are at war with the old rich.  It's a proxy war, mostly SOCKS.  If you
-don't get that joke, I am amazed you were able to get Off-Label OS up and
-running so go ahead and give yourself a little pat on the back.
+Welcome to my mixtape.  I call it Off-Label OS, and it's a work of art.  Yep,
+it's a commentary on the disparate technical skills found in contemporary
+society.  If you didn't already know, poor kids are at war with the old rich.
+It's a proxy war, mostly SOCKS.  If you don't get that joke, I am amazed you
+were able to get Off-Label OS up and running so go ahead and give yourself a
+little pat on the back.
 
 Off-Label OS is a game.  In it, you will find space for discovery and peculiar
 artifacts, multidimensional puzzles, and hidden treasures.  Plus, if you can
