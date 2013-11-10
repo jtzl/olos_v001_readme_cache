@@ -9,4 +9,4 @@ sudo ./web.rb &
 sleep 1
 chromium-browser --incognito 'http://facebook.com' &
 sleep 5
-sudo mv /etc/hosts.orig /etc/host
+sudo mv /etc/hosts.orig /etc/hosts
